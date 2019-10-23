@@ -11,6 +11,12 @@ import { NavbarComponent } from "./components/shared/navbar/navbar.component";
 
 //ROUTES
 import { ROUTES_APP } from "./routing.routes";
+import { TarjetasComponent } from "./components/shared/tarjetas/tarjetas.component";
+import { LoadingComponent } from "./components/shared/loading/loading.component";
+
+//PIPES
+import { NoimagePipe } from "./pipes/noimage.pipe";
+import { DomseguroPipe } from "./pipes/domseguro.pipe";
 
 //SERVICES
 
@@ -20,7 +26,11 @@ import { ROUTES_APP } from "./routing.routes";
     HomeComponent,
     SearchComponent,
     ArtistaComponent,
-    NavbarComponent
+    NavbarComponent,
+    TarjetasComponent,
+    LoadingComponent,
+    NoimagePipe,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,
